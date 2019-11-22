@@ -10,6 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
+    std::string s = "att_cnn";
+    std::cout << "att_cnn:" << s.compare("att_cnn") << std::endl;
+    std::cout << "at_cnn:" << s.compare("at_cnn") << std::endl;
     std::cout << "Hello, World!\n";
     return 0;
 }
